@@ -54,4 +54,4 @@ jobs:
           push: true
           tags: ${{ env.CR_URI }}/evo-restapigo:${{ github.sha }}
           file: ./restapi-go/src/Dockerfile
-          context: ./restapi-go/src 
+          context: ./restapi-go/src
